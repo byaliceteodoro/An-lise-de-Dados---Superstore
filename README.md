@@ -65,7 +65,7 @@ Este projeto tem como objetivo analisar o desempenho de vendas, lucratividade e 
 
 🚧 Em desenvolvimento no Power BI
 
-*(Aqui será incluída uma visualização interativa com os principais insights do projeto)*
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/41c90ba5-4bf0-41ba-8f26-422f3f138f7d" />
 
 ---
 
