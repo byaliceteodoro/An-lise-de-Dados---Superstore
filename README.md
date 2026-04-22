@@ -2,14 +2,34 @@
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo analisar o desempenho de vendas, lucratividade e o impacto de descontos em um dataset de varejo, utilizando SQL Server para exploração de dados e (futuramente) Power BI para visualização.
+Este projeto tem como objetivo analisar o desempenho de vendas, lucratividade e o impacto de descontos em um dataset de varejo, utilizando **SQL Server para exploração de dados** e **Power BI para visualização interativa**.
 
 ---
 
 ## 🛠️ Ferramentas utilizadas
 
 * SQL Server
-* Power BI *(em desenvolvimento)*
+* Power BI
+* Vega-Lite (custom visual no Power BI)
+
+---
+
+## 📊 Dashboard Interativo
+
+O dashboard foi desenvolvido no Power BI com foco em **análise exploratória e suporte à decisão**, permitindo identificar padrões de lucratividade e impacto dos descontos.
+
+### 🔍 Principais componentes:
+
+* KPIs de receita, lucro e volume de pedidos
+* Análise de lucratividade por categoria
+* Comparação de desempenho por região
+* Impacto dos descontos no lucro
+* Ranking de produtos com maiores prejuízos
+* Painel de filtros dinâmicos (categoria, região, produto e período)
+
+📸 **Preview do Dashboard:**
+
+![Dashboard Superstore](https://github.com/user-attachments/assets/41c90ba5-4bf0-41ba-8f26-422f3f138f7d)
 
 ---
 
@@ -28,9 +48,9 @@ Este projeto tem como objetivo analisar o desempenho de vendas, lucratividade e 
 ### 📦 Análise por Categoria
 
 * Furniture apresenta **baixa margem (~10%)**
-* Technology e Office Supplies apresentam **alta lucratividade**
+* Technology e Office Supplies apresentam **maior lucratividade**
 
-👉 Insight: Nem sempre maior venda significa maior lucro — margens variam por categoria.
+👉 Insight: Alto volume de vendas não garante maior rentabilidade.
 
 ---
 
@@ -39,33 +59,34 @@ Este projeto tem como objetivo analisar o desempenho de vendas, lucratividade e 
 * West é a região **mais lucrativa**
 * Central apresenta o **menor desempenho**
 
-👉 Insight: Diferenças regionais podem indicar problemas operacionais ou estratégicos.
+👉 Insight: Diferenças regionais indicam oportunidades de otimização operacional.
 
 ---
 
 ### 💣 Impacto dos Descontos
 
-* Descontos acima de **20–30%** geram prejuízo
-* Relação direta entre aumento de desconto e queda no lucro
+* Descontos acima de **20–30%** tendem a gerar prejuízo
+* Relação inversa entre desconto e lucro
 
-👉 Insight: Estratégias agressivas de desconto comprometem a rentabilidade.
-
----
-
-### 🚨 Produtos com maior prejuízo
-
-* Produtos de alto valor apresentam grandes perdas com descontos elevados
-* Destaque para equipamentos tecnológicos e móveis corporativos
-
-👉 Insight: Necessidade de revisão na política de descontos para produtos específicos.
+👉 Insight: Estratégias agressivas de desconto comprometem a margem.
 
 ---
 
-## 📊 Dashboard
+### 🚨 Produtos com maiores perdas
 
-🚧 Em desenvolvimento no Power BI
+* Produtos de alto valor concentram maiores prejuízos
+* Destaque para itens de tecnologia e móveis corporativos
 
-<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/41c90ba5-4bf0-41ba-8f26-422f3f138f7d" />
+👉 Insight: Necessidade de revisão na política de descontos por produto.
+
+---
+
+## 🎨 Diferenciais do Projeto
+
+* Uso de **Vega-Lite dentro do Power BI** para criação de visual customizado
+* Dashboard com **design focado em experiência do usuário (UX)**
+* Aplicação de conceitos de **storytelling com dados**
+* Estrutura organizada para análise exploratória e tomada de decisão
 
 ---
 
@@ -80,7 +101,7 @@ projeto-analise-superstore/
 │   └── analises.sql
 │
 ├── dashboard/
-│   └── (em construção)
+│   └── dashboard.pbix
 │
 └── README.md
 
@@ -88,10 +109,12 @@ projeto-analise-superstore/
 
 ## 🧠 Conclusão
 
-A análise demonstrou que fatores como categoria, região e principalmente desconto impactam diretamente a lucratividade.
-Os resultados indicam a importância de estratégias comerciais mais equilibradas para maximizar o lucro e evitar prejuízos.
+A análise evidencia que **descontos são o principal fator de impacto negativo na lucratividade**, além de variações relevantes por categoria e região.
+
+Os resultados reforçam a importância de uma estratégia comercial equilibrada, focada em maximizar receita sem comprometer a margem.
 
 ---
 
 ## 👨‍💻 Autor
+
 Alice Teodoro
