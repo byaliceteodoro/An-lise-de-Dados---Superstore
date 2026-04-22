@@ -29,7 +29,7 @@ O dashboard foi desenvolvido no Power BI com foco em **análise exploratória e 
 
 📸 **Preview do Dashboard:**
 
-![Dashboard Superstore](https://github.com/user-attachments/assets/41c90ba5-4bf0-41ba-8f26-422f3f138f7d)
+<img width="1024" height="578" alt="Captura de tela 2026-04-22 114258" src="https://github.com/user-attachments/assets/e2ff8a0d-8560-4b85-b9fe-b6033cc1586c" />
 
 ---
 
